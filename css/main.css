@@ -19,13 +19,11 @@ li {
     padding: 0 0.5em;
 }
 nav {
-    position: relative;
     float: right;
 }
 
 /* Classes */
 .name {
-    position: relative;
     float: left;
 }
 .title {
