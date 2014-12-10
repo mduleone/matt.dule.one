@@ -13,3 +13,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Classes */
+.title {
+    display: inline-block;
+}
