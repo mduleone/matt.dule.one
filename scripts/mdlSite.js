@@ -15,6 +15,10 @@ angular.module('mdlSite', ['ngRoute'])
                 templateUrl: 'views/resume.html',
                 controller: 'mdlResumeController'
             })
+            .when('/contact', {
+                templateUrl: 'views/contact.html',
+                controller: 'mdlContactController'
+            })
             .otherwise({
                 redirectTo: '/'
             });
