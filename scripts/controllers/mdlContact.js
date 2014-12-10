@@ -1,6 +1,6 @@
 'use strict';
 
-angular.modules("mdlSite")
-    .controller("mdlContactController", function($scope) {
+angular.module("mdlSite")
+    .controller("mdlContactController", function ($scope) {
 
     });

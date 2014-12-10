@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('mdlSite', ['ngRoute'])
-    .config(['$routeProvider', function($routeProvider) {
+    .config(['$routeProvider', function ($routeProvider) {
         $routeProvider
             .when('/', {
                 templateUrl: 'views/home.html',
