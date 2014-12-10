@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Matt DuLeone</title>
+        <link rel="stylesheet" href="./css/main.css" />
+        <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="./bower_components/angular/angular.min.js"></script>
+        <script type="text/javascript" src="./bower_components/angular-route/angular-route.min.js"></script>
+        <script type="text/javascript" src="./scripts/mdlSite.js"></script>
+        <script type="text/javascript" src="./scripts/controllers/mdlHome.js"></script>
+        <script type="text/javascript" src="./scripts/controllers/mdlProjects.js"></script>
+    </head>
+    <body ng-app="mdlSite">
+        <header><span>Matt DuLeone</span><span><ul><li><a href="/#/">Home</a></li><li><a href="/#/projects">Projects</a></li><li><a href="/#/resume">Resume</a></li></ul></span></header>
+        <main ng-view=""></main>
+    </body>
+</html>
