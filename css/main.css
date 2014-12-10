@@ -16,5 +16,5 @@ a:hover {
 
 /* Classes */
 .title {
-    display: inline-block;
+    display: block;
 }
