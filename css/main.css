@@ -103,10 +103,10 @@ nav {
 }
 
 @media (max-width: 400px) {
-    header, .container {
-        font-size: 3em;
+    header, .container, .nav,  {
+        font-size: 5em;
     }
     .title {
-        font-size: 4em;
+        font-size: 6em;
     }
 }
