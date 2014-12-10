@@ -1,11 +1,8 @@
 * {
     font-family: sans-serif;
 }
+
 /* Tags */
-li {
-    display: inline-block;
-    padding: 1em;
-}
 a {
     text-decoration: none;
     color: blue;
@@ -13,8 +10,24 @@ a {
 a:hover {
     text-decoration: underline;
 }
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline-block;
+    padding: 0 0.5em;
+}
+nav {
+    position: relative;
+    float: right;
+}
 
 /* Classes */
+.name {
+    position: relative;
+    float: left;
+}
 .title {
     display: block;
 }
