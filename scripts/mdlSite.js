@@ -9,7 +9,7 @@ angular.module('mdlSite', ['ngRoute'])
             })
             .when('/projects', {
                 templateUrl: 'views/projects.html',
-                controller: 'mdlProjectsController'
+                controller: 'mdlProjectController'
             })
             .when('/resume', {
                 templateUrl: 'views/resume.html',
