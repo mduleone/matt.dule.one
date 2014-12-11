@@ -3,23 +3,29 @@
 angular.module("app")
     .controller("ContactController", function ($scope) {
         $scope.contacts = [{
+            icon: "fa-envelope-o",
             href: "mailto:matt@duleone.com",
-            name: "Email"
+            name: "matt@duleone.com"
         }, {
+            icon: "fa-facebook",
             href: "https://www.facebook.com/matt.duleone",
-            name: "Facebook"
+            name: "matt.duleone"
         }, {
+            icon: "fa-twitter",
             href: "http://twitter.com/Crimyon",
-            name: "Twitter"
+            name: "@Crimyon"
         }, {
-            href: "http://ello.co/mduleone",
-            name: "Ello"
+            icon: "fa-google-plus",
+            href: "https://plus.google.com/113075431950470826421/",
+            name: "Matt DuLeone"
         }, {
+            icon: "fa-linkedin",
             href: "http://www.linkedin.com/pub/matt-duleone/10/a65/123",
-            name: "LinkedIn"
+            name: "Matt DuLeone"
         }, {
+            icon: "fa-github",
             href: "http://github.com/mduleone",
-            name: "GitHub"
+            name: "mduleone"
         }, {
 
         }]

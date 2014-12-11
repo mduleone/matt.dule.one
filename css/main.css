@@ -53,12 +53,12 @@ ul {
     padding: 0;
     margin: 0;
 }
-li {
+nav li {
     display: inline-block;
     padding: 0 0.5em;
     border-left: 1px solid black;
 }
-li:first-child {
+nav li:first-child {
     border-left: none;
 }
 nav {
@@ -109,8 +109,37 @@ nav {
     padding: 1em;
 }
 
+.contacts {
+    list-style: none;
+}
+
 @media only screen and (max-width: 520px) {
-    header, .container, .nav, a {
+    header {
+        font-size: 16pt;
+        text-align: center;
+        border-bottom: solid #c0c0c0 1px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    nav a:hover{
+        color: blue;
+        background: transparent;
+    }
+    nav {
+        float: center;
+        display: block;
+        margin: 0;
+    }
+    .container {
+        font-size: 16pt;
+    }
+    .nav {
+        font-size: 16pt;
+        text-align: center;
+    }
+    a {
         font-size: 16pt;
     }
     .name {
@@ -128,23 +157,14 @@ nav {
         padding-top: 5em;
         /*text-align: center;*/
     }
-    nav a:hover{
-        color: blue;
-        background: transparent;
-    }
-    nav {
-        float: left;
-        display: block;
-        margin: 0;
-    }
-    li {
+    nav li {
         margin: 0 0em;
         padding: 0 0.1em;
     }
-    li:first-child{
+    nav li:first-child{
         padding-left: 0;
     }
-    li:last-child{
+    nav li:last-child{
         padding-right: 0;
     }
     ul.contacts {
