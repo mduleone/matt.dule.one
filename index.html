@@ -5,21 +5,20 @@
         <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="./bower_components/angular/angular.min.js"></script>
         <script type="text/javascript" src="./bower_components/angular-route/angular-route.min.js"></script>
-        <script type="text/javascript" src="./scripts/mdlSite.js"></script>
-        <script type="text/javascript" src="./scripts/controllers/mdlHome.js"></script>
-        <script type="text/javascript" src="./scripts/controllers/mdlProject.js"></script>
-        <script type="text/javascript" src="./scripts/controllers/mdlResume.js"></script>
-        <script type="text/javascript" src="./scripts/controllers/mdlContact.js"></script>
+        <script type="text/javascript" src="./scripts/app.js"></script>
+        <script type="text/javascript" src="./scripts/controllers/header.js"></script>
+        <script type="text/javascript" src="./scripts/controllers/home.js"></script>
+        <script type="text/javascript" src="./scripts/controllers/projects.js"></script>
+        <script type="text/javascript" src="./scripts/controllers/resume.js"></script>
+        <script type="text/javascript" src="./scripts/controllers/contact.js"></script>
+        <script type="text/javascript" src="./scripts/directives/mdlProject.js"></script>
     </head>
-    <body ng-app="mdlSite">
-        <header>
-            <span>Matt DuLeone</span>
+    <body ng-app="app">
+        <header ng-controller="HeaderController">
+            <span class="name">Matt DuLeone</span>
             <nav>
                 <ul>
-                    <li class='nav'><a href="/#/">Home</a></li>
-                    <li class='nav'><a href="/#/projects">Projects</a></li>
-                    <li class='nav'><a href="/#/resume">Resume</a></li>
-                    <li class='nav'><a href="/#/contact">Contact</a></li>
+                    <li ng-repeat="nav in navLinks"><a ng-href="{{nav.href}}">{{nav.name}}</a></li>
                 </ul>
             </nav>
         </header>

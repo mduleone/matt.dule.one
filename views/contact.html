@@ -1,10 +1,5 @@
 <div class="container">
     <ul>
-        <li><a href="mailto:matt@duleone.com">matt@duleone.com</a></li>
-        <li><a target="_blank" href="http://facebook.com/matt.duleone">Facebook</a></li>
-        <li><a target="_blank" href="http://twitter.com/Crimyon">Twitter</a></li>
-        <li><a target="_blank" href="http://ello.co/mduleone">Ello</a></li>
-        <li><a target="_blank" href="http://www.linkedin.com/pub/matt-duleone/10/a65/123">LinkedIn</a></li>
-        <li><a target="_blank" href="http://github.com/mduleone">GitHub</a></li>
+        <li ng-repeat="card in contacts"><a target="_blank" ng-href="{{card.href}}">{{card.name}}</a></li>
     </ul>
 </div>

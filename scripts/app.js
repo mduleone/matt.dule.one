@@ -1,23 +1,23 @@
 'use strict';
 
-angular.module('mdlSite', ['ngRoute'])
+angular.module('app', ['ngRoute'])
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider
             .when('/', {
                 templateUrl: 'views/home.html',
-                controller: 'mdlHomeController'
+                controller: 'HomeController'
             })
             .when('/projects', {
                 templateUrl: 'views/projects.html',
-                controller: 'mdlProjectController'
+                controller: 'ProjectsController'
             })
             .when('/resume', {
                 templateUrl: 'views/resume.html',
-                controller: 'mdlResumeController'
+                controller: 'ResumeController'
             })
             .when('/contact', {
                 templateUrl: 'views/contact.html',
-                controller: 'mdlContactController'
+                controller: 'ContactController'
             })
             .otherwise({
                 redirectTo: '/'
