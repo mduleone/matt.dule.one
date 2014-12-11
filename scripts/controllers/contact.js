@@ -7,7 +7,7 @@ angular.module("app")
             name: "Email"
         }, {
             href: "https://www.facebook.com/matt.duleone",
-            name: "Faceook"
+            name: "Facebook"
         }, {
             href: "http://twitter.com/Crimyon",
             name: "Twitter"

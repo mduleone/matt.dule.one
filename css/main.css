@@ -127,14 +127,18 @@ nav {
         display: block;
         margin: 0;
     }
-    nav li {
+    li {
         margin: 0 0em;
         padding: 0 0.1em;
     }
-    nav li:first-child{
+    li:first-child{
         padding-left: 0;
     }
-    nav li:last-child{
+    li:last-child{
         padding-right: 0;
+    }
+    ul.contacts {
+        text-align: center;
+        font-size: 14pt;
     }
 }
