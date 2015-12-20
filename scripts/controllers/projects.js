@@ -13,7 +13,7 @@ angular.module("app")
             repository: "https://github.com/mduleone/MakeUtterance",
             desc: "A very basic tool to make creating utterance strings for the Amazon Echo easier.",
         }, {
-            title: "Echo pokedex",
+            title: "Echo Pokedex",
             href: "https://github.com/mduleone/EchoPokedex",
             repository: "https://github.com/mduleone/EchoPokedex",
             desc: "A Pokedex skill for the Amazon Echo. Ask Alexa to tell you about any Pokemon in the Pokemon universe.",
