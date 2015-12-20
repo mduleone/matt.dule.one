@@ -25,7 +25,7 @@ main {
 
 a {
     text-decoration: none;
-    color: blue;
+    color: dodgerblue;
 }
 a:hover {
     text-decoration: underline;
@@ -33,20 +33,16 @@ a:hover {
 
 .nav {
     text-decoration: none;
-    color: blue;
     /*border-right: 1px solid #000;*/
     /*border-left: 1px solid #000;*/
 }
 .nav:hover {
-    text-decoration: none;
     color: black;
-    background: #c0c0c0;
     cursor: pointer;
 }
 nav a:hover {
-    text-decoration: none;
-    background: #c0c0c0;
-    color: #000;
+    text-decoration: underline;
+    /*color: #000;*/
 }
 
 ul {
@@ -71,20 +67,15 @@ nav {
     float: left;
 }
 
-.title {
-    display: block;
-    font-size: 18pt;
-    font-weight: bold;
-}
-
 .title a {
-    color: purple;
+    color: blueviolet;
 }
 
 .title a:hover {
     text-decoration: none;
-    background: #c0c0c0;
-    color: green;
+    /*background: slategray;*/
+    color: forestgreen;
+    cursor: pointer;
 }
 
 .container {
@@ -104,9 +95,23 @@ nav {
 
 .project {
     border-radius: 3px;
-    box-shadow: -5px 5px 1em blue;
+    box-shadow: 5px 5px 1em darkslategray;
     margin: 1em;
     padding: 1em;
+}
+
+.project .title {
+    display: block;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.project p {
+    margin: 0;
+}
+
+.project .repository {
+    margin-top: 1em;
 }
 
 .contacts {
@@ -118,6 +123,53 @@ nav {
     width: 1em;
     display: inline-block;
     text-align: center;
+}
+
+.resume {
+    max-width: 700px;
+    /*background: green;*/
+    font-size: 12pt;
+    position: relative;
+    margin: 0 auto;
+}
+
+.resume .section {
+    margin: .5em 0;
+}
+
+.resume .section:first-child {
+    margin-top: 0;
+}
+
+.resume .heading .title {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.resume .content .title {
+
+}
+
+.resume .subheading .title {
+    font-weight: bold;
+}
+
+.resume .content .title {
+    display: block;
+    font-style: oblique;
+}
+
+.resume .subsection {
+    margin-bottom: .5em;
+}
+
+.resume .subsection:last-child {
+    margin-bottom: 0;
+}
+
+.resume .date {
+    float: right;
 }
 
 @media only screen and (max-width: 520px) {
@@ -135,9 +187,13 @@ nav {
         background: transparent;
     }
     nav {
-        float: center;
         display: block;
+        width: 100%;
         margin: 0;
+    }
+    nav ul {
+        position: relative;
+        margin: 0 auto;
     }
     .container {
         font-size: 16pt;
