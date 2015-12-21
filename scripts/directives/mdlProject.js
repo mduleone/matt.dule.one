@@ -5,6 +5,7 @@ angular.module('app')
         return {
             restrict: 'AE',
             templateUrl: 'scripts/directives/templates/project.html',
+            controller: 'mdlProjectCtrl',
             // scope: {
             //     proj.title: '@title',
             //     proj.link: '@link',
