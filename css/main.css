@@ -190,7 +190,7 @@ nav {
     text-align: left;
 }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 750px) {
     .resume {
         font-size: 12pt;
     }
@@ -201,8 +201,8 @@ nav {
         content: "\A";
         display: block;
     }
-
 }
+
 @media only screen and (max-width: 520px) {
     header {
         font-size: 16pt;
