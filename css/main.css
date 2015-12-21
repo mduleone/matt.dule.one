@@ -190,6 +190,19 @@ nav {
     text-align: left;
 }
 
+@media only screen and (max-width: 736px) {
+    .resume {
+        font-size: 12pt;
+    }
+    .resume .description {
+        display: inline;
+    }
+    .resume .description:before {
+        content: "\A";
+        display: block;
+    }
+
+}
 @media only screen and (max-width: 520px) {
     header {
         font-size: 16pt;
@@ -223,9 +236,6 @@ nav {
     a {
         font-size: 16pt;
     }
-    .resume {
-        font-size: 12pt;
-    }
     .name {
         display: block;
         width: 100%;
@@ -255,12 +265,5 @@ nav {
         /*text-align: center;*/
         margin-left: 1.5em;
         font-size: 14pt;
-    }
-    .resume .description {
-        display: inline;
-    }
-    .resume .description:before {
-        content: "\A";
-        display: block;
     }
 }
