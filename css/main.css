@@ -170,25 +170,6 @@ nav {
     margin-top: 0;
 }
 
-/*.resume .heading .title {
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 14pt;
-}
-
-.resume .content .title {
-
-}
-
-.resume .subheading .title {
-    font-weight: bold;
-}
-
-.resume .content .title {
-    display: block;
-    font-style: oblique;
-}*/
-
 .resume .subsection {
     margin-bottom: .5em;
 }
@@ -203,6 +184,10 @@ nav {
 
 .resume .content {
     text-align: justify;
+}
+
+.resume .content.left {
+    text-align: left;
 }
 
 @media only screen and (max-width: 520px) {
