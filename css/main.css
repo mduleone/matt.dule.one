@@ -10,7 +10,7 @@ header {
     left: 0;
     top: 0;
     width: 100%;
-    font-size: 14pt;
+    font-size: 1em;
     padding: .5em;
     background: white;
 }
@@ -20,7 +20,7 @@ main {
     margin-top: 2em;
     bottom: 0;
     width: 100%;
-    font-size: 14pt;
+    font-size: 1em;
 }
 
 a {
@@ -83,7 +83,7 @@ nav {
     width: 100%;
     padding: 1em 0;
     margin: auto;
-    font-size: 14pt;
+    font-size: 1em;
 }
 
 .about {
@@ -128,7 +128,7 @@ nav {
 .resume {
     max-width: 750px;
     /*min-width: 675px;*/
-    font-size: 12pt;
+    font-size: 1em;
     position: relative;
     margin: 0 auto;
 }
@@ -137,14 +137,14 @@ nav {
     font-family: sans-serif;
     text-decoration: underline;
     font-weight: bold;
-    font-size: 14pt;
+    font-size: 1em;
     margin: 0;
 }
 
 .resume h3 {
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 12pt;
+    font-size: 1em;
     margin: 0;
     display: inline;
 }
@@ -153,7 +153,7 @@ nav {
     font-family: sans-serif;
     font-style: italic;
     font-weight: normal;
-    font-size: 12pt;
+    font-size: 1em;
     margin: 0;
 }
 
@@ -192,7 +192,7 @@ nav {
 
 @media only screen and (max-width: 750px) {
     .resume {
-        font-size: 12pt;
+        font-size: 1em;
     }
     .resume .description {
         display: inline;
@@ -205,7 +205,7 @@ nav {
 
 @media only screen and (max-width: 520px) {
     header {
-        font-size: 16pt;
+        font-size: 1.14em;
         text-align: center;
         border-bottom: solid #c0c0c0 1px;
         margin-left: 0;
@@ -227,21 +227,21 @@ nav {
         margin: 0 auto;
     }
     .container {
-        font-size: 16pt;
+        font-size: 1.14em;
     }
     .nav {
-        font-size: 16pt;
+        font-size: 1.14em;
         text-align: center;
     }
     a {
-        font-size: 16pt;
+        font-size: 1.14em;
     }
     .name {
         display: block;
         width: 100%;
     }
     .title {
-        font-size: 18pt;
+        font-size: 1.28em;
     }
     main {
         margin-top: 4em;
@@ -264,6 +264,6 @@ nav {
     ul.contacts {
         /*text-align: center;*/
         margin-left: 1.5em;
-        font-size: 14pt;
+        font-size: 1em;
     }
 }
