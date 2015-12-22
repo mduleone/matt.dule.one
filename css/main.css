@@ -1,6 +1,5 @@
 body {
     font-family: sans-serif;
-    -webkit-text-size-adjust: none;
 }
 
 /* Tags */
@@ -128,7 +127,7 @@ nav {
 
 .resume {
     max-width: 750px;
-    /*min-width: 675px;*/
+    -webkit-text-size-adjust: none;
     font-size: 19px;
     position: relative;
     margin: 0 auto;
