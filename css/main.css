@@ -250,8 +250,7 @@ nav {
         margin-top: 4em;
     }
     .container {
-        position: absolute;
-        overflow: scroll;
+        height: auto;
     }
     .about {
         position: relative;
@@ -267,5 +266,14 @@ nav {
     }
     nav li:last-child{
         padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    header, nav a {
+        font-size: 19px;
+    }
+    main {
+        margin-top: 2.5em;
     }
 }
