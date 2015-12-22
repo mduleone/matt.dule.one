@@ -187,13 +187,10 @@ nav {
     text-align: justify;
 }
 
-.resume .content.left {
-    text-align: left;
-}
-
 @media only screen and (max-width: 750px) {
     .resume .description {
         display: inline;
+        text-align: left;
     }
     .resume .description:before {
         content: "\A";
