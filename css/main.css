@@ -67,17 +67,6 @@ nav {
     float: left;
 }
 
-.title a {
-    color: blueviolet;
-}
-
-.title a:hover {
-    text-decoration: none;
-    /*background: slategray;*/
-    color: forestgreen;
-    cursor: pointer;
-}
-
 .container {
     position: relative;
     width: 100%;
@@ -104,6 +93,16 @@ nav {
     display: block;
     font-size: 25px;
     font-weight: bold;
+}
+
+.project .title a {
+    color: blueviolet;
+}
+
+.project .title a:hover {
+    text-decoration: none;
+    color: forestgreen;
+    cursor: pointer;
 }
 
 .project p {
@@ -186,7 +185,11 @@ nav {
     text-align: justify;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 736px) {
+    nav a.active {
+        text-decoration: underline;
+    }
+    
     .resume .description {
         display: inline;
     }
@@ -198,6 +201,14 @@ nav {
     .resume .description:before {
         content: "\A";
         display: block;
+    }
+
+    .project .title a:hover {
+        color: blueviolet;
+    }
+
+    .project a {
+        text-decoration: none;
     }
 }
 
@@ -214,8 +225,8 @@ nav {
     nav a {
         font-size: 25px;
     }
-    nav a:hover{
-        color: blue;
+    a:hover{
+        text-decoration: none;
         background: transparent;
     }
     nav {
@@ -227,9 +238,6 @@ nav {
         position: relative;
         margin: 0 auto;
     }
-    .container {
-        font-size: 25px;
-    }
     .nav {
         font-size: 25px;
         text-align: center;
@@ -237,9 +245,6 @@ nav {
     .name {
         display: block;
         width: 100%;
-    }
-    .title {
-        font-size: 31px;
     }
     main {
         margin-top: 4em;
@@ -258,10 +263,5 @@ nav {
     }
     nav li:last-child{
         padding-right: 0;
-    }
-    ul.contacts {
-        /*text-align: center;*/
-        margin-left: 1.5em;
-        font-size: 19px;
     }
 }

@@ -25,7 +25,7 @@
             <span class="name">Matt DuLeone</span>
             <nav>
                 <ul>
-                    <li ng-repeat="nav in navLinks"><a ng-href="{{nav.href}}">{{nav.name}}</a></li>
+                    <li ng-repeat="nav in navLinks"><a class="{{isCurrentPath(nav.href)}}" ng-href="{{nav.href}}">{{nav.name}}</a></li>
                 </ul>
             </nav>
         </header>
