@@ -10,7 +10,7 @@ header {
     left: 0;
     top: 0;
     width: 100%;
-    font-size: 1em;
+    font-size: 19px;
     padding: .5em;
     background: white;
 }
@@ -20,7 +20,7 @@ main {
     margin-top: 2em;
     bottom: 0;
     width: 100%;
-    font-size: 1em;
+    font-size: 19px;
 }
 
 a {
@@ -83,7 +83,7 @@ nav {
     width: 100%;
     padding: 1em 0;
     margin: auto;
-    font-size: 1em;
+    font-size: 19px;
 }
 
 .about {
@@ -102,7 +102,7 @@ nav {
 
 .project .title {
     display: block;
-    font-size: 18pt;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -128,7 +128,7 @@ nav {
 .resume {
     max-width: 750px;
     /*min-width: 675px;*/
-    font-size: 1em;
+    font-size: 19px;
     position: relative;
     margin: 0 auto;
 }
@@ -137,14 +137,14 @@ nav {
     font-family: sans-serif;
     text-decoration: underline;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 19px;
     margin: 0;
 }
 
 .resume h3 {
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 19px;
     margin: 0;
     display: inline;
 }
@@ -153,7 +153,7 @@ nav {
     font-family: sans-serif;
     font-style: italic;
     font-weight: normal;
-    font-size: 1em;
+    font-size: 19px;
     margin: 0;
 }
 
@@ -191,9 +191,6 @@ nav {
 }
 
 @media only screen and (max-width: 750px) {
-    .resume {
-        font-size: 1em;
-    }
     .resume .description {
         display: inline;
     }
@@ -205,7 +202,7 @@ nav {
 
 @media only screen and (max-width: 520px) {
     header {
-        font-size: 1.14em;
+        font-size: 25px;
         text-align: center;
         border-bottom: solid #c0c0c0 1px;
         margin-left: 0;
@@ -227,21 +224,21 @@ nav {
         margin: 0 auto;
     }
     .container {
-        font-size: 1.14em;
+        font-size: 25px;
     }
     .nav {
-        font-size: 1.14em;
+        font-size: 25px;
         text-align: center;
     }
     a {
-        font-size: 1.14em;
+        font-size: 25px;
     }
     .name {
         display: block;
         width: 100%;
     }
     .title {
-        font-size: 1.28em;
+        font-size: 31px;
     }
     main {
         margin-top: 4em;
@@ -264,6 +261,6 @@ nav {
     ul.contacts {
         /*text-align: center;*/
         margin-left: 1.5em;
-        font-size: 1em;
+        font-size: 19px;
     }
 }
