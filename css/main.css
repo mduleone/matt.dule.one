@@ -67,6 +67,11 @@ nav {
     float: left;
 }
 
+.name a, .name a:hover {
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     position: relative;
     width: 100%;

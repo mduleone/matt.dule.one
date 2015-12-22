@@ -22,7 +22,7 @@
     </head>
     <body ng-app="app">
         <header ng-controller="HeaderController">
-            <span class="name">Matt DuLeone</span>
+            <span class="name"><a href="#/">Matt DuLeone</a></span>
             <nav>
                 <ul>
                     <li ng-repeat="nav in navLinks"><a class="{{isCurrentPath(nav.href)}}" ng-href="{{nav.href}}">{{nav.name}}</a></li>
