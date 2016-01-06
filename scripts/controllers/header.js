@@ -3,16 +3,16 @@
 angular.module("app")
     .controller("HeaderController", function($scope, $location) {
         $scope.navLinks = [{
-            href: "/#/",
+            href: "./#/",
             name: "Home"
         }, {
-            href: "/#/projects",
+            href: "./#/projects",
             name: "Projects"
         }, {
-            href: "/#/resume",
+            href: "./#/resume",
             name: "Resume"
         }, {
-            href: "/#/contact",
+            href: "./#/contact",
             name: "Contact"
         }];
 
