@@ -87,6 +87,10 @@ nav {
     text-align: center;
 }
 
+.about .line:nth-child(n+1):before {
+    content: " ";
+}
+
 .project {
     border-radius: 3px;
     box-shadow: 5px 5px 1em darkslategray;
@@ -271,6 +275,11 @@ nav {
     }
     nav li:last-child{
         padding-right: 0;
+    }
+
+    .about .line:nth-child(n+1):before {
+        content: "\a";
+        white-space: pre;
     }
 }
 
