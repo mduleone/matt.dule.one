@@ -266,6 +266,9 @@ nav {
         padding-top: 5em;
         /*text-align: center;*/
     }
+    .projects {
+        max-width: 750px;
+    }
     nav li {
         margin: 0 0em;
         padding: 0 0.1em;
