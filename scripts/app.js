@@ -22,4 +22,9 @@ angular.module('app', ['ngRoute'])
             .otherwise({
                 redirectTo: '/'
             });
+    }])
+    .filter('rawHtml', ['$sce', function($sce){
+      return function(val) {
+        return $sce.trustAsHtml(val);
+      };
     }]);
