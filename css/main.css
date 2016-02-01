@@ -92,6 +92,7 @@ nav {
 }
 .projects {
     max-width: 750px;
+    margin: 0 auto;
 }
 .project {
     border-radius: 3px;
