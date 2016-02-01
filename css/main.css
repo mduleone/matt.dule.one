@@ -90,7 +90,9 @@ nav {
 .about .line:nth-child(n+1):before {
     content: " ";
 }
-
+.projects {
+    max-width: 750px;
+}
 .project {
     border-radius: 3px;
     box-shadow: 5px 5px 1em darkslategray;
@@ -265,9 +267,6 @@ nav {
         position: relative;
         padding-top: 5em;
         /*text-align: center;*/
-    }
-    .projects {
-        max-width: 750px;
     }
     nav li {
         margin: 0 0em;
