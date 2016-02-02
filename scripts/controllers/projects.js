@@ -11,7 +11,7 @@ angular.module("app")
             title: "Five Card Draw - Alexa Skill",
             href: "",
             repo: "https://github.com/mduleone/alexaFivecard",
-            desc: "A Five Card Draw Poker skill for the Amazon Echo. Ask Alexa to deal you a hand, and then try your best to beat her!<br /><br />Built on <a href='#'>Node Poker</a>",
+            desc: "A Five Card Draw Poker skill for the Amazon Echo. Ask Alexa to deal you a hand, and then try your best to beat her!<br /><br />Built on Node Poker.",
         }, {
             title: "Make Utterance",
             href: "https://www.npmjs.com/package/make-utterance",
@@ -21,7 +21,7 @@ angular.module("app")
             title: "Node Poker",
             href: "",
             repo: "https://github.com/mduleone/nodePoker",
-            desc: "A Node.js implementation of a poker hand analyzer. Inspired by solving <a href='https://projecteuler.net/problem=54'>Project Euler #54</a> in <a href='https://gist.github.com/mduleone/133c118b8a6c6bb9b624'>COBOL</a> and wanting a more practical api.",
+            desc: "A Node.js implementation of a poker hand analyzer. Inspired by solving <a href='https://projecteuler.net/problem=54'>Project Euler #54</a> in <a href='https://gist.github.com/mduleone/133c118b8a6c6bb9b624'>COBOL</a> and wanting a more practical API.",
         }, {
             title: "Pokedex - Alexa Skill",
             href: "",
