@@ -19,9 +19,9 @@ angular.module("app")
             desc: "A very basic tool to make creating utterance strings for the Amazon Echo easier.",
         }, {
             title: "Node Poker",
-            href: "",
+            href: "http://dule.one/holdemAnalyzer",
             repo: "https://github.com/mduleone/nodePoker",
-            desc: "A Node.js implementation of a poker hand analyzer. Inspired by solving <a href='https://projecteuler.net/problem=54'>Project Euler #54</a> in <a href='https://gist.github.com/mduleone/133c118b8a6c6bb9b624'>COBOL</a> and wanting a more practical API.",
+            desc: "A Node.js implementation of a poker hand analyzer. <a href='/holdemAnalyzer' target='_blank'>Texas Hold'em</a> implemented in the GUI, <a href='/holdem?board=KsQsTsKdAd&hand1=AsJs&hand2=AhKh&hand5=TdTh' target='_blank'>Texas Hold'em</a> and <a href='poker?hand1=AsJsKsQsTs&hand2=AhKhAcKdAd' target='_blank'>5 card</a> poker implemented in an API Inspired by solving <a href='https://projecteuler.net/problem=54' target='_blank'>Project Euler #54</a> in <a href='https://gist.github.com/mduleone/133c118b8a6c6bb9b624' target='_blank'>COBOL</a> and wanting a more practical API.",
         }, {
             title: "Pokedex - Alexa Skill",
             href: "",
