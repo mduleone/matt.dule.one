@@ -17,7 +17,7 @@ angular.module("app")
             title: "Node Poker",
             href: "http://dule.one/holdemAnalyzer",
             repo: "https://github.com/mduleone/nodePoker",
-            desc: "A Node.js implementation of a poker hand analyzer. <a href='/holdemAnalyzer' target='_blank'>Texas Hold'em</a> implemented in the GUI, <a href='/holdem?board=KsQsTsKdAd&hand1=AsJs&hand2=AhKh&hand5=TdTh' target='_blank'>Texas Hold'em</a> and <a href='poker?hand1=AsJsKsQsTs&hand2=AhKhAcKdAd' target='_blank'>5 card</a> poker implemented in an API. More games implemented in the project, but none with exposed endpoints. Inspired by solving <a href='https://projecteuler.net/problem=54' target='_blank'>Project Euler #54</a> in <a href='https://gist.github.com/mduleone/133c118b8a6c6bb9b624' target='_blank'>COBOL</a> and wanting a more practical API.",
+            desc: "A Node.js implementation of a poker hand analyzer. <a href='http://dule.one/holdemAnalyzer' target='_blank'>Texas Hold'em</a> implemented in the GUI, <a href='http://dule.one/holdem?board=KsQsTsKdAd&hand1=AsJs&hand2=AhKh&hand5=TdTh' target='_blank'>Texas Hold'em</a> and <a href='http://dule.one/poker?hand1=AsJsKsQsTs&hand2=AhKhAcKdAd' target='_blank'>5 card</a> poker implemented in an API. More games implemented in the project, but none with exposed endpoints. Inspired by solving <a href='https://projecteuler.net/problem=54' target='_blank'>Project Euler #54</a> in <a href='https://gist.github.com/mduleone/133c118b8a6c6bb9b624' target='_blank'>COBOL</a> and wanting a more practical API.",
         }, {
             title: "Make Utterance",
             href: "https://www.npmjs.com/package/make-utterance",
