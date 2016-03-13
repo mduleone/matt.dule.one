@@ -91,7 +91,7 @@ nav {
 .about .line:nth-child(n+1):before {
     content: " ";
 }
-.projects {
+.projects, .contacts {
     max-width: 750px;
     margin: 0 auto;
 }
