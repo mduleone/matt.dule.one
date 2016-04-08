@@ -193,6 +193,10 @@ nav {
     float: right;
 }
 
+.resume .position-group h4 {
+    display: inline-block;
+}
+
 .resume .content {
     text-align: justify;
 }
