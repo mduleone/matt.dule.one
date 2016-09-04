@@ -192,6 +192,9 @@ nav {
 .resume .date {
     float: right;
 }
+.resume .item {
+    display: inline-block;
+}
 
 .resume .position-group h4 {
     display: inline-block;
@@ -200,6 +203,8 @@ nav {
 .resume .content {
     text-align: justify;
 }
+
+
 
 @media only screen and (max-width: 736px) {
     nav a.active {
