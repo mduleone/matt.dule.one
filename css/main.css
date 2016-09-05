@@ -76,7 +76,7 @@ nav {
 .container {
     position: relative;
     width: 100%;
-    padding: 1em 0;
+    padding: 1em 0 0 0;
     margin: auto;
     font-size: 19px;
 }
@@ -150,6 +150,7 @@ nav {
     font-weight: bold;
     font-size: 19px;
     margin: 0;
+    display: block;
 }
 
 .resume h3 {
@@ -157,7 +158,7 @@ nav {
     font-weight: bold;
     font-size: 19px;
     margin: 0;
-    display: inline;
+    display: inline-block;
 }
 
 .resume h4 {
@@ -166,6 +167,7 @@ nav {
     font-weight: normal;
     font-size: 19px;
     margin: 0;
+    display: inline-block;
 }
 
 .resume ul {
@@ -193,18 +195,19 @@ nav {
     float: right;
 }
 .resume .item {
-    display: inline-block;
-}
-
-.resume .position-group h4 {
-    display: inline-block;
+    display: block;
 }
 
 .resume .content {
     text-align: justify;
 }
+.resume li {
+    margin: .5em 0;
+}
 
-
+.resume li:first-child {
+    margin-top: 0;
+}
 
 @media only screen and (max-width: 736px) {
     nav a.active {
@@ -215,13 +218,37 @@ nav {
         display: inline;
     }
 
-    .resume .content {
-        text-align: left;
-    }
-
     .resume .description:before {
         content: "\A";
         display: block;
+    }
+
+    .resume .date {
+        display: block;
+        float: none;
+    }
+
+    .resume .section {
+        float: left;
+    }
+
+    .resume .position-group {
+        display: block;
+        float: none;
+    }
+
+    .resume .position-group h4 {
+        display: block;
+    }
+    .resume h3 {
+        display: block;
+    }
+    .resume h4 {
+        display: block;
+    }
+
+    .resume .content {
+        text-align: left;
     }
 
     .project .title a:hover {
