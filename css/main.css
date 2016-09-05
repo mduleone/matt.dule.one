@@ -91,8 +91,8 @@ nav {
 .about .line:nth-child(n+1):before {
     content: " ";
 }
-.projects, .contacts {
-    max-width: 750px;
+.projects, .contacts, .resume {
+    max-width: 736px;
     margin: 0 auto;
 }
 .project {
@@ -138,10 +138,8 @@ nav {
 }
 
 .resume {
-    max-width: 750px;
     font-size: 19px;
     position: relative;
-    margin: 0 auto;
 }
 
 .resume h2 {
