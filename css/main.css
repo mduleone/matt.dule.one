@@ -229,15 +229,6 @@ nav {
     .resume .section {
         float: left;
     }
-
-    .resume .position-group {
-        display: block;
-        float: none;
-    }
-
-    .resume .position-group h4 {
-        display: block;
-    }
     .resume h3 {
         display: block;
     }
@@ -301,7 +292,6 @@ nav {
     .about {
         position: relative;
         padding-top: 5em;
-        /*text-align: center;*/
     }
     nav li {
         margin: 0 0em;
@@ -313,10 +303,8 @@ nav {
     nav li:last-child{
         padding-right: 0;
     }
-
-    .about .line:nth-child(n+1):before {
-        content: "\a";
-        white-space: pre;
+    .about .line {
+        display: block;
     }
 }
 
