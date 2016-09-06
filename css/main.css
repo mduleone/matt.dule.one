@@ -168,11 +168,6 @@ nav {
     display: inline-block;
 }
 
-.resume ul {
-    margin: 0;
-    list-style: none;  
-}
-
 .resume .section {
     margin: .5em 0;
 }
@@ -192,33 +187,14 @@ nav {
 .resume .date {
     float: right;
 }
-.resume .item {
-    display: block;
-}
 
 .resume .content {
     text-align: justify;
-}
-.resume li {
-    margin: .5em 0;
-}
-
-.resume li:first-child {
-    margin-top: 0;
 }
 
 @media only screen and (max-width: 736px) {
     nav a.active {
         text-decoration: underline;
-    }
-
-    .resume .description {
-        display: inline;
-    }
-
-    .resume .description:before {
-        content: "\A";
-        display: block;
     }
 
     .resume .date {
