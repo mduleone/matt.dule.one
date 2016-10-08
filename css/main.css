@@ -165,7 +165,7 @@ nav {
     font-weight: normal;
     font-size: 19px;
     margin: 0;
-    display: inline-block;
+    display: block;
 }
 
 .resume .section {
@@ -190,6 +190,10 @@ nav {
 
 .resume .content {
     text-align: justify;
+}
+
+h4.u-inline {
+    display: inline-block;
 }
 
 @media only screen and (max-width: 736px) {
