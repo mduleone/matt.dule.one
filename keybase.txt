@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/mduleone
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://dule.one
+  * I am mduleone (https://keybase.io/mduleone) on keybase.
+  * I have a public key with fingerprint 326C A771 816F 9230 C1A4  561D 90EF F242 B12C 4C9D
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101987e1b831b79ae7d49118f8f18c8a3a3bf46b8f6f63838a50700816bb51b45270a",
+            "fingerprint": "326ca771816f9230c1a4561d90eff242b12c4c9d",
+            "host": "keybase.io",
+            "key_id": "90eff242b12c4c9d",
+            "kid": "0101987e1b831b79ae7d49118f8f18c8a3a3bf46b8f6f63838a50700816bb51b45270a",
+            "uid": "1ab6d76620ad3f3c46dc68657e3bf619",
+            "username": "mduleone"
+        },
+        "service": {
+            "hostname": "dule.one",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1490063868,
+    "expire_in": 157680000,
+    "prev": "14d19867b99c1478cf706494f6c0e26fda4108597a44ac1dbd78ab50b6bb418e",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.66
+Comment: https://keybase.io/crypto
+
+yMImAnicrZJbSBVBGMfP8VKkZBdDysiHjZTiJDO7c2ZnT2RZiHahoB4quxxmdmd1
+87R7POd4LKR7iFGGZg8WlYqFEJFvUlpRVkoYlFEUQVGk3YuK6GqXWbG3HpuXYT5+
+///8v4/v6thET4o3f89eWp5W+MHbd7mhwrP6Vv1QlcQcY4sUqJLK+PDFQwaPxoJl
+liEFJAAB1IjKISMKZKpGuWogDUJiEhMSnVCFKsxEmBETm1ghCqF+oAJAIGbMDxny
+yyqgkk8yLbuER8IRy44JW0XGOlVVKDBTkxWgQ4r8GBoa4KYpI5lBWUe6ZghhqRN1
+FSIco1GeazmiJh7B4Xj/4P9z7ophO0gZNlSMZUANxVR0hA0dE+xXuXDBUHPBKI/Y
+dBMX9CajIsQdm0tbfZKoxi2du4N1OxkhXCDXJXxSOOLEHN0JiWppLBYOuKLYlrBL
+VXIWHNEHmWUbYoRCEOeRqOXYUgAKUo9ZriFEGgCiDUx8Et8ctiI8aLmEX8UEiON+
+w+NuI8gQc8Eq0zQdIpXopgow0pCJdcBlbBoUQUD8mkoRojo0mKESyvyAibEgSNzA
+UV5uO8Ibipy0RHhGrRKbxioiot/uS+uSPN4Uz6jkBHe3PCljxv/duH3Fo38kZeYN
+DsyZ7Us7U5BcnVKf8Xju03mhxDtZz6I9qzYmH6xaculrwZopDxYuWDnr+1vfYPW1
+102N+093rf1yL/zpDdtZk5NdlL58QmbLUDwUmZl19EdC3c/WTO19euG+yS8/3/zQ
+2Tjpndbce37O8f7swK5XOaV3K1vk3u5l2QVPg/fXe1Nr2nfseF/b/uolHGg91XTg
+47L+kz1a7+GNKAMsuuIty+Oe6RPZ/dRfHX3j8o48TBrcfeLYt3dN956nrt96rvlR
+Q23PhfyMi8VNfNqLbSXKx7YbbQm3y7s6nywdiBce25BXmzWvYUbi9vyhlt/T0xUr
+WNQx314xtaCuuezs9UOLjyfj1ow/qrk9pg==
+=7WWX
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mduleone
+
+==================================================================
