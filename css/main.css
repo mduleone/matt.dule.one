@@ -414,9 +414,6 @@ h4.u-inline {
     .resume .date {
         font-size: 9pt;
     }
-    .resume a {
-        text-decoration: underline;
-    }
     .print-coa {
         display: block;
         visibility: visible;
