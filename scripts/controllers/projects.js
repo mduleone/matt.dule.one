@@ -5,13 +5,13 @@ angular.module("app")
         $scope.projects = [
             {
                 title: "Casino Craps",
-                href: "http://duleone.com/craps",
+                href: "https://duleone.com/craps",
                 repo: "https://github.com/mduleone/craps",
                 desc: "A frontend implementation of the popular casino table game, Craps! Complete with a tutorial, this is an excellent and fun way to learn to play Craps without the fear of losing your shirt! You start with $10,000, and table stakes allow for you to be as frugal or as extravigant as you wish, allowing bets of all sizes, from $10 to $10,000.",
             },
             {
                 title: "matt.dule.one",
-                href: "http://matt.dule.one",
+                href: "/",
                 repo: "https://github.com/mduleone/matt.dule.one",
                 desc: "This project: my personal website. A home-grown Angular 1.3 app created in 2014.",
             },
@@ -23,7 +23,7 @@ angular.module("app")
             },
             {
                 title: "Node Poker",
-                href: "http://dule.one/holdemAnalyzer",
+                href: "/holdemAnalyzer",
                 repo: "https://github.com/mduleone/nodePoker",
                 desc: "A Node.js implementation of a poker hand analyzer. <a href='http://dule.one/holdemAnalyzer' target='_blank'>Texas Hold'em</a> implemented in the GUI, <a href='http://dule.one/holdem?board=KsQsTsKdAd&hand1=AsJs&hand2=AhKh&hand5=TdTh' target='_blank'>Texas Hold'em</a> and <a href='http://dule.one/poker?hand1=AsJsKsQsTs&hand2=AhKhAcKdAd' target='_blank'>5 card</a> poker implemented in an API. More games implemented in the project, but none with exposed endpoints. Inspired by solving <a href='https://projecteuler.net/problem=54' target='_blank'>Project Euler #54</a> in <a href='https://gist.github.com/mduleone/133c118b8a6c6bb9b624' target='_blank'>COBOL</a> and wanting a more practical API.",
             },
