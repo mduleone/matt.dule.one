@@ -12,7 +12,7 @@ angular.module("app")
             name: "matt.duleone"
         }, {
             icon: "fa-twitter",
-            href: "http://twitter.com/Crimyon",
+            href: "https://twitter.com/Crimyon",
             name: "@Crimyon"
         }, {
             icon: "fa-google-plus",
@@ -20,14 +20,16 @@ angular.module("app")
             name: "Matt DuLeone"
         }, {
             icon: "fa-linkedin",
-            href: "http://www.linkedin.com/pub/matt-duleone/10/a65/123",
+            href: "https://www.linkedin.com/in/matt-duleone/",
             name: "Matt DuLeone"
         }, {
             icon: "fa-github",
-            href: "http://github.com/mduleone",
+            href: "https://github.com/mduleone",
             name: "mduleone"
         }, {
-
+            icon: "fa-globe",
+            href: "https://matt.dule.one/",
+            name: "matt.dule.one"
         }]
 
     });
