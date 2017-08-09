@@ -16,6 +16,12 @@ angular.module("app")
                 desc: "This project: my personal website. A home-grown Angular 1.3 app created in 2014.",
             },
             {
+                title: "Crapshoot",
+                href: "",
+                repo: "https://github.com/mduleone/crapshoot",
+                desc: "\"Create React App Plus - Super Handy, Objectively Opinionated, Tasty!\"<br /><br />An opinionated and scaffolded approach to building a React/Redux Web Application, with an unejected instance of Create React App as its base. In addition to Redux, it comes with a bunch of other goodies baked in! Check out the repository for a more detailed explanation.",
+            },
+            {
                 title: "Amazon IoT Button Starter",
                 href: "",
                 repo: "https://github.com/mduleone/iotbutton-starter",
