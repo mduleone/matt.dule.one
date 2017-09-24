@@ -4,10 +4,16 @@ angular.module("app")
     .controller("ProjectsController", function($scope) {
         $scope.projects = [
             {
-                title: "Casino Craps",
-                href: "https://dule.one/craps",
-                repo: "https://github.com/mduleone/craps",
-                desc: "A frontend implementation of the popular casino table game, Craps! Complete with a tutorial, this is an excellent and fun way to learn to play Craps without the fear of losing your shirt! You start with $10,000, and table stakes allow for you to be as frugal or as extravigant as you wish, allowing bets of all sizes, from $10 to $10,000.",
+                title: "Crapshoot",
+                href: "https://dule.one/crapshoot",
+                repo: "https://github.com/mduleone/crapshoot",
+                desc: "\"Create React App Plus - Super Handy, Obviously Opinionated, Tasty!\"<br /><br />An opinionated and scaffolded approach to building React/Redux Web Applications, with an unejected instance of Create React App as its base. In addition to Redux, it comes with a bunch of other goodies baked in! Check out the repository for a more detailed explanation.",
+            },
+            {
+                title: "Majic Parser",
+                href: "https://www.npmjs.com/package/majic-parser",
+                repo: "https://github.com/mduleone/majic-parser",
+                desc: "\"Module Architecture for JsonAPI Ingesting Consumers\"<br /><br />A tool that makes building front-end JavaScript applications against JsonAPI backends easier.",
             },
             {
                 title: "matt.dule.one",
@@ -16,10 +22,10 @@ angular.module("app")
                 desc: "This project: my personal website. A home-grown Angular 1.3 app created in 2014.",
             },
             {
-                title: "Crapshoot",
-                href: "https://dule.one/crapshoot",
-                repo: "https://github.com/mduleone/crapshoot",
-                desc: "\"Create React App Plus - Super Handy, Obviously Opinionated, Tasty!\"<br /><br />An opinionated and scaffolded approach to building React/Redux Web Applications, with an unejected instance of Create React App as its base. In addition to Redux, it comes with a bunch of other goodies baked in! Check out the repository for a more detailed explanation.",
+                title: "Casino Craps",
+                href: "https://dule.one/craps",
+                repo: "https://github.com/mduleone/craps",
+                desc: "A frontend implementation of the popular casino table game, Craps! Complete with a tutorial, this is an excellent and fun way to learn to play Craps without the fear of losing your shirt! You start with $10,000, and table stakes allow for you to be as frugal or as extravigant as you wish, allowing bets of all sizes, from $10 to $10,000.",
             },
             {
                 title: "Amazon IoT Button Starter",
