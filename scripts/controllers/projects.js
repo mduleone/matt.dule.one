@@ -10,10 +10,10 @@ angular.module("app")
                 desc: "\"Create React App Plus - Super Handy, Obviously Opinionated, Tasty!\"<br /><br />An opinionated and scaffolded approach to building React/Redux Web Applications, with an unejected instance of Create React App as its base. In addition to Redux, it comes with a bunch of other goodies baked in! Check out the repository for a more detailed explanation.",
             },
             {
-                title: "Majic Parser",
-                href: "https://www.npmjs.com/package/majic-parser",
-                repo: "https://github.com/mduleone/majic-parser",
-                desc: "\"Module Architecture for JsonAPI Ingesting Consumers\"<br /><br />A tool that makes building front-end JavaScript applications against JsonAPI backends easier.",
+                title: "Redux Majic",
+                href: "https://www.npmjs.com/package/redux-majic",
+                repo: "https://github.com/mduleone/redux-majic",
+                desc: "\"Module Architecture for JsonAPI Ingesting Consumers\"<br /><br />Redux Majic makes building client-side JavaScript applications using <a href='http://redux.js.org/' target='_blank'>Redux</a> against <a href='http://jsonapi.org/' target='_blank'>JsonAPI</a> backends easier.",
             },
             {
                 title: "matt.dule.one",

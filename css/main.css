@@ -237,7 +237,7 @@ nav {
     margin-top: 4px;
 }
 
-h4.u-inline {
+h4.u-inline, h2 .u-inline, .u-inline {
     display: inline-block;
 }
 
@@ -249,7 +249,7 @@ h4.u-inline {
     .resume .section:nth-child(2) {
         margin-top: 0;
     }
-    .only-print {
+    .only-print, .only-print.u-inline {
         display: none;
         visibility: hidden;
     }
@@ -438,5 +438,19 @@ h4.u-inline {
     .only-print {
         display: inherit;
         visibility: visible;
+    }
+    @-moz-document url-prefix() {
+        .resume {
+            font-size: 15pt;
+        }
+        .resume .date {
+            font-size: 13pt;
+        }
+        .resume h3, .resume h4 {
+            font-size: 16pt;
+        }
+        .resume h2 {
+            font-size: 17pt;
+        }
     }
 }
