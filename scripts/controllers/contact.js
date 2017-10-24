@@ -4,7 +4,7 @@ angular.module("app")
     .controller("ContactController", function ($scope) {
         $scope.contacts = [{
             icon: "fa-envelope-o",
-            href: "mailto:matt@duleone.com",
+            href: "mailto:matt@duleone.com?subject=Hello%20friend!",
             name: "matt@duleone.com"
         }, {
             icon: "fa-facebook",
