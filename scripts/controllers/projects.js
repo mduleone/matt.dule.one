@@ -7,7 +7,7 @@ angular.module("app")
                 title: "Crapshoot",
                 href: "https://dule.one/crapshoot",
                 repo: "https://github.com/mduleone/crapshoot",
-                desc: "\"Create React App Plus - Super Handy, Obviously Opinionated, Tasty!\"<br /><br />An opinionated and scaffolded approach to building React/Redux Web Applications, with an unejected instance of Create React App as its base. In addition to Redux, it comes with a bunch of other goodies baked in! Check out the repository for a more detailed explanation.",
+                desc: "\"Create React App Plus - Super Handy, Obviously Opinionated, Tested!\"<br /><br />An opinionated and scaffolded approach to building React/Redux Web Applications, with an unejected instance of Create React App as its base. In addition to Redux, it comes with a bunch of other goodies baked in! Check out the repository for a more detailed explanation.",
             },
             {
                 title: "Redux Majic",
