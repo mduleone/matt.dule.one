@@ -4,6 +4,12 @@ angular.module("app")
     .controller("ProjectsController", function($scope) {
         $scope.projects = [
             {
+                title: "Tranquil Island",
+                href: "https://tranquil-island.glitch.me",
+                repo: "https://glitch.com/edit/#!/tranquil-island",
+                desc: "Generative Art!<br /><br />Inspired by a lightning talk at <a href='https://manhattanjs.com'>ManhattanJS</a> from <a href='https://twitter.com/twholman'>Tim Holman</a> about <a href='https://www.youtube.com/watch?v=4Se0_w0ISYk'>generative art (video from JSConf Austraila)</a>, and then again inspired to sit down and play with things by a talk on GPU generated art by <a href='https://twitter.com/MaxBittker'>Max Bittker</a> at <a href='https://dinosaurjs.org'>DinosaurJS</a>.",
+            },
+            {
                 title: "Crapshoot",
                 href: "https://dule.one/crapshoot",
                 repo: "https://github.com/mduleone/crapshoot",
